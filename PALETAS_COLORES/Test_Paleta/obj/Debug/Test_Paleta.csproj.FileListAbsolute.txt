@@ -1,0 +1,10 @@
+C:\Users\H420\Source\Repos\Entidades_Paleta\Test_Paleta\bin\Debug\Test_Paleta.exe.config
+C:\Users\H420\Source\Repos\Entidades_Paleta\Test_Paleta\bin\Debug\Test_Paleta.exe
+C:\Users\H420\Source\Repos\Entidades_Paleta\Test_Paleta\bin\Debug\Test_Paleta.pdb
+C:\Users\H420\Source\Repos\Entidades_Paleta\Test_Paleta\bin\Debug\Entidades_Paleta.dll
+C:\Users\H420\Source\Repos\Entidades_Paleta\Test_Paleta\bin\Debug\Entidades_Paleta.pdb
+C:\Users\H420\Source\Repos\Entidades_Paleta\Test_Paleta\obj\Debug\Test_Paleta.csprojAssemblyReference.cache
+C:\Users\H420\Source\Repos\Entidades_Paleta\Test_Paleta\obj\Debug\Test_Paleta.csproj.CoreCompileInputs.cache
+C:\Users\H420\Source\Repos\Entidades_Paleta\Test_Paleta\obj\Debug\Test_Paleta.csproj.CopyComplete
+C:\Users\H420\Source\Repos\Entidades_Paleta\Test_Paleta\obj\Debug\Test_Paleta.exe
+C:\Users\H420\Source\Repos\Entidades_Paleta\Test_Paleta\obj\Debug\Test_Paleta.pdb

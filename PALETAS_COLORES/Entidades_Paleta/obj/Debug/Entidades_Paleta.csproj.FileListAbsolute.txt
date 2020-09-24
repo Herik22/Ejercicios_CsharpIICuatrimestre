@@ -1,0 +1,6 @@
+C:\Users\H420\Source\Repos\Entidades_Paleta\Entidades_Paleta\bin\Debug\Entidades_Paleta.dll
+C:\Users\H420\Source\Repos\Entidades_Paleta\Entidades_Paleta\bin\Debug\Entidades_Paleta.pdb
+C:\Users\H420\Source\Repos\Entidades_Paleta\Entidades_Paleta\obj\Debug\Entidades_Paleta.csprojAssemblyReference.cache
+C:\Users\H420\Source\Repos\Entidades_Paleta\Entidades_Paleta\obj\Debug\Entidades_Paleta.csproj.CoreCompileInputs.cache
+C:\Users\H420\Source\Repos\Entidades_Paleta\Entidades_Paleta\obj\Debug\Entidades_Paleta.dll
+C:\Users\H420\Source\Repos\Entidades_Paleta\Entidades_Paleta\obj\Debug\Entidades_Paleta.pdb
