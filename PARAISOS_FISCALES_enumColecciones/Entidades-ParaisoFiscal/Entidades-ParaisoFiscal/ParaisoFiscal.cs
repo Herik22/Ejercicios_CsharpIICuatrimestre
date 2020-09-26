@@ -24,6 +24,8 @@ namespace Entidades_ParaisoFiscal
         public void mostrarParaiso ()
         {
             StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine();
             sb.AppendFormat("Fecha de inicio de actividades: {0}",fechaInicioActividades);
             sb.AppendLine();
 
@@ -35,9 +37,14 @@ namespace Entidades_ParaisoFiscal
 
             sb.Append("                 ***** DETALLE DE CUENTAS ******");
             sb.AppendLine();
+            Console.WriteLine("{0}", sb.ToString());
             foreach (CuentaOffShore infoCuentas in this.listadoCuentas)
             {
                 Console.WriteLine("{0}", Cliente.RetornarDatos(infoCuentas.getDueño()));
+                Console.WriteLine("N° de Cuenta : {0}", (int)infoCuentas);
+                Console.WriteLine("Saldo : {0}", infoCuentas.getSaldo());
+                Console.WriteLine("");
+
             }           
         }
 
@@ -73,6 +80,7 @@ namespace Entidades_ParaisoFiscal
         {
             return new ParaisoFiscal(epf);
         }
+
         /// <summary>
         /// Retornara TRUE = si la cuenta OffShore existe en el Paraiso Fiscal
         /// FALSE = Caso contrario.
@@ -80,15 +88,26 @@ namespace Entidades_ParaisoFiscal
         /// <returns></returns>
         public static bool operator == (ParaisoFiscal pF,CuentaOffShore cOS)
         {
-            // en paraiso fiscal tengo una lista de objetos tipo CUENTAOFFSHORE la recorro y comparo con la cuenta recibida
-            foreach (CuentaOffShore auxCOS in pF.listadoCuentas)
+            bool retorno = false;
+            
+            if (pF.listadoCuentas.Contains(cOS)) // mi FORMA DISNEY 
             {
-                if(auxCOS == cOS)
-                {
-                    return true; 
-                }
-            }         
-            return false;
+                return true;
+            }
+            else { return false; }
+
+            /* if (((object)pF) != null && ((object)cOS)!= null)  // como lo hizo el profe y pasaron al grupo de wap 
+             {
+                 retorno = true; 
+             }
+             else if (((object)pF) != null && ((object)cOS) != null)
+             {
+                 if (pF.listadoCuentas.Contains(cOS))
+                 {
+                     retorno =  true;
+                 }
+             }
+             return retorno;*/
         }
 
         /// <summary>
@@ -113,17 +132,52 @@ namespace Entidades_ParaisoFiscal
         {
             if ( pF == cOF)
             {
-                if(pF.listadoCuentas.Remove(cOF))
-                {
-                   int q = ParaisoFiscal.cantidadDeCuentas -= 1;
-                    return pF;
-                }
+                // if(pF.listadoCuentas.Remove(cOF))
+                //{
+                pF.listadoCuentas.Remove(cOF);
+                    ParaisoFiscal.cantidadDeCuentas --;
+                    Console.WriteLine("Se quito la cuenta del Paraiso ....");
+                    //return pF;
+               // }
                 
             }
                 return pF;
         }
 
-        public static ParaisoFiscal operator + ()
+        /// <summary>
+        /// permite agregar una cuentaOffShore a la lista de ParaisosFiscales solo si no esta contenida en ella, incrementa en uno la cantidad de cuentas
+        /// si la cuenta ya existe en el paraiso fiscal se sumaran los saldos. 
+        /// </summary>
+        /// <returns></returns>
+        public static ParaisoFiscal operator + (ParaisoFiscal pf,CuentaOffShore cOS)
+        {
+            
+            if (! (pf == cOS))
+            {
+                pf.listadoCuentas.Add(cOS);
+                ParaisoFiscal.cantidadDeCuentas++;
+                Console.WriteLine("Se agrego la cuenta al Paraiso ....");
+                
+            }else
+            {
+                foreach (CuentaOffShore aux in pf.listadoCuentas)
+                {
+
+                    double s1 = aux.getSaldo();
+                    double s2 = cOS.getSaldo();
+                    double s12 = s1 + s2;
+
+                    aux.setSaldo(s12);
+
+
+                    Console.WriteLine("Se actualizo el saldo de la cuenta  ....");
+
+                }
+               /*double aux = cOS.getSaldo 
+               cOS.setSaldo( cOS.getSaldo());*/
+            }
+            return pf;
+        }
         #endregion
     }
 }

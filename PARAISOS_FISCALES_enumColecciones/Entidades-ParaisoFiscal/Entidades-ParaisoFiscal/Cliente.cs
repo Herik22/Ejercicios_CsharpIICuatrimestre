@@ -48,12 +48,15 @@ namespace Entidades_ParaisoFiscal
         private string  RetornarDatos()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("Alias : {0}", this.getAlias());
-            sb.AppendLine();
+
             sb.AppendFormat("Nombre : {0}", this.nombre);
             sb.AppendLine();
+
             sb.AppendFormat("Tipo de Cliente: {0}", this.tipoDeCliente.ToString());
             sb.AppendLine();
+
+            sb.AppendFormat("Alias : {0}", this.getAlias());
+            sb.AppendLine();          
             return sb.ToString();
         }
 
