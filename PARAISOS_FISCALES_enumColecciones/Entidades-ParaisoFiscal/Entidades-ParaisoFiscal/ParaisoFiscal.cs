@@ -122,6 +122,8 @@ namespace Entidades_ParaisoFiscal
             }
                 return pF;
         }
+
+        public static ParaisoFiscal operator + ()
         #endregion
     }
 }
