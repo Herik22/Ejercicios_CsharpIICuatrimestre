@@ -19,20 +19,23 @@ namespace Entidades_ParaisoFiscal
 
         #region PROPIEDADES
 
-        public Cliente getDueño ()
+
+
+        public double  Saldo
         {
-            return this.dueño;
+            get { return this.saldo; }
+            set { this.saldo = value; }
         }
 
-        public double getSaldo ()
+        public Cliente getDueño 
         {
-            return this.saldo;    
+            get
+            {
+                return this.dueño;
+            }
+            
         }
 
-        public void setSaldo (double valor )
-        {
-            this.saldo = valor;
-        }
         #endregion
 
         #region METODOS
@@ -62,7 +65,7 @@ namespace Entidades_ParaisoFiscal
         /// <param name="saldoInicial"></param>
         public CuentaOffShore (String nombre,eTipoDeCliente tipoCliente,int numero,double saldoInicial):this(new Cliente(tipoCliente), numero,saldoInicial)
         {
-            //this.dueño = new Cliente(tipoCliente);
+            this.dueño = new Cliente(tipoCliente,nombre);
         }
 
         #endregion

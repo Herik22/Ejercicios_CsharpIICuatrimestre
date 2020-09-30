@@ -40,9 +40,9 @@ namespace Entidades_ParaisoFiscal
             Console.WriteLine("{0}", sb.ToString());
             foreach (CuentaOffShore infoCuentas in this.listadoCuentas)
             {
-                Console.WriteLine("{0}", Cliente.RetornarDatos(infoCuentas.getDueño()));
+                Console.WriteLine("{0}", Cliente.RetornarDatos(((CuentaOffShore)infoCuentas).getDueño));
                 Console.WriteLine("N° de Cuenta : {0}", (int)infoCuentas);
-                Console.WriteLine("Saldo : {0}", infoCuentas.getSaldo());
+                Console.WriteLine("Saldo : {0}", infoCuentas.Saldo);
                 Console.WriteLine("");
 
             }           
@@ -89,25 +89,33 @@ namespace Entidades_ParaisoFiscal
         public static bool operator == (ParaisoFiscal pF,CuentaOffShore cOS)
         {
             bool retorno = false;
-            
+            /*
             if (pF.listadoCuentas.Contains(cOS)) // mi FORMA DISNEY 
             {
                 return true;
             }
-            else { return false; }
+            else { return false; }*/
 
-            /* if (((object)pF) != null && ((object)cOS)!= null)  // como lo hizo el profe y pasaron al grupo de wap 
+             if (((object)pF) == null && ((object)cOS)== null)  // como lo hizo el profe y pasaron al grupo de wap 
              {
                  retorno = true; 
              }
-             else if (((object)pF) != null && ((object)cOS) != null)
+             else 
              {
-                 if (pF.listadoCuentas.Contains(cOS))
-                 {
-                     retorno =  true;
-                 }
+                if (((object)pF) != null && ((object)cOS) != null)
+                {
+                    foreach (CuentaOffShore item in pF.listadoCuentas)
+                    {
+                        if (item == cOS)
+                        {
+                            retorno = true;
+                            break;
+                        }
+                    }
+                }
+                    
              }
-             return retorno;*/
+             return retorno;
         }
 
         /// <summary>
@@ -135,7 +143,7 @@ namespace Entidades_ParaisoFiscal
                 // if(pF.listadoCuentas.Remove(cOF))
                 //{
                 pF.listadoCuentas.Remove(cOF);
-                    ParaisoFiscal.cantidadDeCuentas --;
+                ParaisoFiscal.cantidadDeCuentas --;
                     Console.WriteLine("Se quito la cuenta del Paraiso ....");
                     //return pF;
                // }
@@ -152,7 +160,7 @@ namespace Entidades_ParaisoFiscal
         public static ParaisoFiscal operator + (ParaisoFiscal pf,CuentaOffShore cOS)
         {
             
-            if (! (pf == cOS))
+            if ( pf != cOS)
             {
                 pf.listadoCuentas.Add(cOS);
                 ParaisoFiscal.cantidadDeCuentas++;
@@ -163,14 +171,10 @@ namespace Entidades_ParaisoFiscal
                 foreach (CuentaOffShore aux in pf.listadoCuentas)
                 {
 
-                    double s1 = aux.getSaldo();
-                    double s2 = cOS.getSaldo();
-                    double s12 = s1 + s2;
-
-                    aux.setSaldo(s12);
-
-
+                    aux.Saldo += cOS.Saldo;
                     Console.WriteLine("Se actualizo el saldo de la cuenta  ....");
+                    break;
+                    
 
                 }
                /*double aux = cOS.getSaldo 

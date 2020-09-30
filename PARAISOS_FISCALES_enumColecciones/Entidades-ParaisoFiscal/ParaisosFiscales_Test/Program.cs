@@ -38,6 +38,7 @@ namespace ParaisosFiscales_Test
 
             Console.ReadLine();
             panamaPapers += otraMauri;
+
             // si la cuenta esta en el paraiso fiscal la eliminara. de ser posible tambien disminuye la cantidad de cuentas.
             panamaPapers -= messiOff;
             panamaPapers -= fariOff;
