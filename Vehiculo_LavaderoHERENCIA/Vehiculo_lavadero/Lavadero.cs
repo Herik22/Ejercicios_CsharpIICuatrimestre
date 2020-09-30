@@ -162,6 +162,32 @@ namespace Vehiculo_lavadero
 
         #endregion
 
+        #region ORDENAMIENTO
+
+        /// <summary>
+        /// Criterio ESTATICO  de ordenamiento por patente.
+        /// </summary>
+        /// <param name="v1"></param>
+        /// <param name="v2"></param>
+        /// <returns></returns>
+        public static int OrdernarPorPatenteAsc(Vehiculo v1, Vehiculo v2)
+        {
+            return String.Compare(v1.getPatente, v2.getPatente);
+        }
+
+        /// <summary>
+        /// Criterio DE INSTANCIA  de ordenamiento por patente.
+        /// </summary>
+        /// <param name="v1"></param>
+        /// <param name="v2"></param>
+        /// <returns></returns>
+        public int OrdenarPorMarca(Vehiculo v1, Vehiculo v2)
+        {
+            return String.Compare(v1.getMarca.ToString(), v2.getMarca.ToString());
+        }
+
+        #endregion
+
         #region CONSTRUCTOR 
 
         /// <summary>
