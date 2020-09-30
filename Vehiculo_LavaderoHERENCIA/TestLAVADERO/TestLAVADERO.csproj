@@ -4,16 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0D58FB21-9E1A-4CF8-8951-A42AAF1CE2CA}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Vehiculo_lavadero</RootNamespace>
-    <AssemblyName>Vehiculo_lavadero</AssemblyName>
+    <ProjectGuid>{99646E78-88A3-4A3F-BE45-9C1F9F3E2D0E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TestLAVADERO</RootNamespace>
+    <AssemblyName>TestLAVADERO</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -41,13 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Auto.cs" />
-    <Compile Include="Camion.cs" />
-    <Compile Include="Enumerados.cs" />
-    <Compile Include="Lavadero.cs" />
-    <Compile Include="Moto.cs" />
-    <Compile Include="Vehiculo.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Vehiculo_lavadero\Vehiculo_lavadero.csproj">
+      <Project>{0d58fb21-9e1a-4cf8-8951-a42aaf1ce2ca}</Project>
+      <Name>Vehiculo_lavadero</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

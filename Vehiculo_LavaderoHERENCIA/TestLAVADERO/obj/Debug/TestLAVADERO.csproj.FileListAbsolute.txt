@@ -1,0 +1,10 @@
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\Vehiculo_LavaderoHERENCIA\TestLAVADERO\bin\Debug\TestLAVADERO.exe.config
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\Vehiculo_LavaderoHERENCIA\TestLAVADERO\bin\Debug\TestLAVADERO.exe
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\Vehiculo_LavaderoHERENCIA\TestLAVADERO\bin\Debug\TestLAVADERO.pdb
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\Vehiculo_LavaderoHERENCIA\TestLAVADERO\bin\Debug\Vehiculo_lavadero.dll
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\Vehiculo_LavaderoHERENCIA\TestLAVADERO\bin\Debug\Vehiculo_lavadero.pdb
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\Vehiculo_LavaderoHERENCIA\TestLAVADERO\obj\Debug\TestLAVADERO.csprojAssemblyReference.cache
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\Vehiculo_LavaderoHERENCIA\TestLAVADERO\obj\Debug\TestLAVADERO.csproj.CoreCompileInputs.cache
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\Vehiculo_LavaderoHERENCIA\TestLAVADERO\obj\Debug\TestLAVADERO.csproj.CopyComplete
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\Vehiculo_LavaderoHERENCIA\TestLAVADERO\obj\Debug\TestLAVADERO.exe
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\Vehiculo_LavaderoHERENCIA\TestLAVADERO\obj\Debug\TestLAVADERO.pdb

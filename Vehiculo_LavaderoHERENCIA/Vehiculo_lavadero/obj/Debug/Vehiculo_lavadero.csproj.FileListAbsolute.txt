@@ -1,0 +1,6 @@
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\Vehiculo_LavaderoHERENCIA\Vehiculo_lavadero\bin\Debug\Vehiculo_lavadero.dll
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\Vehiculo_LavaderoHERENCIA\Vehiculo_lavadero\bin\Debug\Vehiculo_lavadero.pdb
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\Vehiculo_LavaderoHERENCIA\Vehiculo_lavadero\obj\Debug\Vehiculo_lavadero.csprojAssemblyReference.cache
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\Vehiculo_LavaderoHERENCIA\Vehiculo_lavadero\obj\Debug\Vehiculo_lavadero.csproj.CoreCompileInputs.cache
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\Vehiculo_LavaderoHERENCIA\Vehiculo_lavadero\obj\Debug\Vehiculo_lavadero.dll
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\Vehiculo_LavaderoHERENCIA\Vehiculo_lavadero\obj\Debug\Vehiculo_lavadero.pdb

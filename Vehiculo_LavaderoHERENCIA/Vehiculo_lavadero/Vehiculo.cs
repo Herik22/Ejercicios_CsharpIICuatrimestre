@@ -30,6 +30,7 @@ namespace Vehiculo_lavadero
             sb.AppendFormat("CANTIDAD DE RUEDAS: {0}", cantRuedas);
             sb.AppendLine();
             sb.AppendFormat("MARCA: {0}", this.getMarca);
+            sb.AppendLine();
 
             return sb.ToString();
         }

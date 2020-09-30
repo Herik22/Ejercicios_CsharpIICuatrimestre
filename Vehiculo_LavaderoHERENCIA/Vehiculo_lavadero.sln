@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vehiculo_lavadero", "Vehiculo_lavadero\Vehiculo_lavadero.csproj", "{0D58FB21-9E1A-4CF8-8951-A42AAF1CE2CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLAVADERO", "TestLAVADERO\TestLAVADERO.csproj", "{99646E78-88A3-4A3F-BE45-9C1F9F3E2D0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0D58FB21-9E1A-4CF8-8951-A42AAF1CE2CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D58FB21-9E1A-4CF8-8951-A42AAF1CE2CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D58FB21-9E1A-4CF8-8951-A42AAF1CE2CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99646E78-88A3-4A3F-BE45-9C1F9F3E2D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99646E78-88A3-4A3F-BE45-9C1F9F3E2D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99646E78-88A3-4A3F-BE45-9C1F9F3E2D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99646E78-88A3-4A3F-BE45-9C1F9F3E2D0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

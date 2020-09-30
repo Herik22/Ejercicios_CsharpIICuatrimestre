@@ -7,3 +7,10 @@
     Iveco,
     Fiat
 }
+
+public enum eVehiculos
+{
+    Auto,
+    Camion,
+    Moto
+}
