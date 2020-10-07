@@ -83,13 +83,16 @@ namespace ParcticaParcial
             sb.AppendLine();
             foreach(Mascota item in g.manada)
             {
-                if(item is Perro )
+                if(item is Perro || item is Gato)
                 {
                     sb.AppendLine(item.ToString());
-                }else if (item is Gato)
-                {
-                    sb.AppendLine(item.ToString());
+                    sb.AppendLine();
                 }
+                /*else if (item is Gato)
+                {
+                    sb.AppendLine(item.ToString());
+                    sb.AppendLine();
+                }*/
             }
 
             return sb.ToString();
@@ -132,7 +135,7 @@ namespace ParcticaParcial
                 return g;
             }else
             {
-                Console.WriteLine("                      ************NO SE AGREGO, YA pertenece a la lista !!  ************");
+                Console.WriteLine("Ya esta, {0} en el grupo.",m.ToString());
             }
             return g;
         }
@@ -151,7 +154,7 @@ namespace ParcticaParcial
             }
             else
             {
-                Console.WriteLine("                      ************NO SE ELIMINO, NO pertenece a la lista !!  ************");
+                Console.WriteLine("NO esta el {0} en el grupo.", m.ToString());
             }
             return g;
         }

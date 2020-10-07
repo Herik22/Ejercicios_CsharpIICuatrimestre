@@ -62,13 +62,15 @@ namespace ParcticaParcial
         protected override string Ficha()
         {
             StringBuilder sb = new StringBuilder();
-            sb.Append("Perro - \n");
+           // sb.AppendLine();
+            sb.Append("Perro - ");
             sb.AppendFormat(base.DatosCompletos());
             if(this.esAlfa)
             {
-                sb.AppendLine("- Alfa de la manada");
+                sb.Append("- Alfa de la manada");
             }         
              sb.AppendFormat("- edad {0}' ", this.edad);
+            
             
             
             return sb.ToString();

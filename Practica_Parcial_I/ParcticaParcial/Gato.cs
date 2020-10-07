@@ -40,9 +40,10 @@ namespace ParcticaParcial
         protected override string Ficha()
         {
             StringBuilder sb = new StringBuilder();
-            sb.Append("Gato - \n");
+           // sb.AppendLine();
+            sb.Append("Gato -");
             sb.AppendFormat(base.DatosCompletos());
-            sb.AppendLine();
+            
 
             return sb.ToString();
         }
