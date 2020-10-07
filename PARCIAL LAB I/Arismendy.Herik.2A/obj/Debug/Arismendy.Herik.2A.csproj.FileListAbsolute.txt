@@ -1,0 +1,12 @@
+C:\Users\H420\Desktop\Entidades\Arismendy.Herik.2A\bin\Debug\Arismendy.Herik.2A.dll
+C:\Users\H420\Desktop\Entidades\Arismendy.Herik.2A\bin\Debug\Arismendy.Herik.2A.pdb
+C:\Users\H420\Desktop\Entidades\Arismendy.Herik.2A\obj\Debug\Arismendy.Herik.2A.csprojAssemblyReference.cache
+C:\Users\H420\Desktop\Entidades\Arismendy.Herik.2A\obj\Debug\Arismendy.Herik.2A.csproj.CoreCompileInputs.cache
+C:\Users\H420\Desktop\Entidades\Arismendy.Herik.2A\obj\Debug\Arismendy.Herik.2A.dll
+C:\Users\H420\Desktop\Entidades\Arismendy.Herik.2A\obj\Debug\Arismendy.Herik.2A.pdb
+C:\Users\H420\Desktop\Herik.Arismendy.2A\Arismendy.Herik.2A\bin\Debug\Arismendy.Herik.2A.dll
+C:\Users\H420\Desktop\Herik.Arismendy.2A\Arismendy.Herik.2A\bin\Debug\Arismendy.Herik.2A.pdb
+C:\Users\H420\Desktop\Herik.Arismendy.2A\Arismendy.Herik.2A\obj\Debug\Arismendy.Herik.2A.csprojAssemblyReference.cache
+C:\Users\H420\Desktop\Herik.Arismendy.2A\Arismendy.Herik.2A\obj\Debug\Arismendy.Herik.2A.csproj.CoreCompileInputs.cache
+C:\Users\H420\Desktop\Herik.Arismendy.2A\Arismendy.Herik.2A\obj\Debug\Arismendy.Herik.2A.dll
+C:\Users\H420\Desktop\Herik.Arismendy.2A\Arismendy.Herik.2A\obj\Debug\Arismendy.Herik.2A.pdb
