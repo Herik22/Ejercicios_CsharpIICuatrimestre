@@ -1,0 +1,6 @@
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\Practica_Parcial_I\ParcticaParcial\bin\Debug\ParcticaParcial.dll
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\Practica_Parcial_I\ParcticaParcial\bin\Debug\ParcticaParcial.pdb
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\Practica_Parcial_I\ParcticaParcial\obj\Debug\ParcticaParcial.csprojAssemblyReference.cache
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\Practica_Parcial_I\ParcticaParcial\obj\Debug\ParcticaParcial.csproj.CoreCompileInputs.cache
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\Practica_Parcial_I\ParcticaParcial\obj\Debug\ParcticaParcial.dll
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\Practica_Parcial_I\ParcticaParcial\obj\Debug\ParcticaParcial.pdb
