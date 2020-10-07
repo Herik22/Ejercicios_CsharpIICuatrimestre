@@ -77,7 +77,7 @@ namespace ParcticaParcial
 
         public static bool operator != (Gato g1, Gato g2)
         {
-            return !(p1 == p2);
+            return !(g1 == g2);
         }
 
         #endregion

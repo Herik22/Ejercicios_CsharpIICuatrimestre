@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="EtipoManada.cs" />
     <Compile Include="Gato.cs" />
+    <Compile Include="Grupo.cs" />
     <Compile Include="Mascota.cs" />
     <Compile Include="Perro.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
