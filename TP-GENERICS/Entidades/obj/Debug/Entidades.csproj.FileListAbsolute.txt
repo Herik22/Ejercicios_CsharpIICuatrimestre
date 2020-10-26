@@ -4,3 +4,9 @@ C:\Users\H420\Desktop\Entidades\Entidades\bin\Debug\Entidades.dll
 C:\Users\H420\Desktop\Entidades\Entidades\bin\Debug\Entidades.pdb
 C:\Users\H420\Desktop\Entidades\Entidades\obj\Debug\Entidades.dll
 C:\Users\H420\Desktop\Entidades\Entidades\obj\Debug\Entidades.pdb
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\TP-GENERICS\Entidades\bin\Debug\Entidades.dll
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\TP-GENERICS\Entidades\bin\Debug\Entidades.pdb
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\TP-GENERICS\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\TP-GENERICS\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\TP-GENERICS\Entidades\obj\Debug\Entidades.dll
+C:\Users\H420\Desktop\ACTIVIDADES PROG\Ejercicios_CsharpIICuatrimestre\TP-GENERICS\Entidades\obj\Debug\Entidades.pdb

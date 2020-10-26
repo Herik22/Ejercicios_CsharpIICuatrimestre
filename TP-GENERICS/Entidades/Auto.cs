@@ -11,8 +11,8 @@ namespace Entidades
     public class Auto
     {
         #region ATRIBUTOS
-        protected string _color;
-        protected string _marca;
+        private string _color;
+        private string _marca;
         #endregion
 
         #region PROPIEDADES
