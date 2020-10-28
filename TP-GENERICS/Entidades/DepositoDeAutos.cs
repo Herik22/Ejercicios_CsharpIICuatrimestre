@@ -12,8 +12,8 @@ namespace Entidades
     {
         #region ATRIBUTOS
 
-        protected int _capacidadMaxima;
-        protected List<Auto> _lista;
+        private int _capacidadMaxima;
+        private List<Auto> _lista;
 
         #endregion
 
@@ -49,13 +49,8 @@ namespace Entidades
         /// <param name="a1"></param>
         /// <returns></returns>
         public bool Agregar (Auto a1)
-        {
-            bool rta = false;
-            if (this + a1)
-            {
-                rta = true;
-            }
-            return rta;
+        {     
+            return this + a1;
         }
 
         /// <summary>
@@ -65,23 +60,18 @@ namespace Entidades
         /// <returns></returns>
         public bool Remover (Auto a1)
         {
-            bool rta = false;
-            if(this - a1)
-            {
-                rta = true;
-            }
-            return rta;
+            return this - a1;
         }
         /// <summary>
         ///  permite retornar la informacion del deposito de autos. (capacidad y detalle de los autos.)
         /// </summary>
         /// <returns></returns>
-        public override string ToString()
+        public override string ToString ()
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendFormat("Capacidad Maxima: {0}", _capacidadMaxima);
             sb.AppendLine();
-            sb.AppendLine("                     LISTA DE VEHICULOS ");
+            sb.AppendLine("LISTA DE VEHICULOS ");
             foreach (Auto item in this._lista)
             {
                 

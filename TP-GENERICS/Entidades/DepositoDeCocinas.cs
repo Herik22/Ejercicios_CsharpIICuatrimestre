@@ -48,12 +48,8 @@ namespace Entidades
         /// <returns></returns>
         public bool Agregar(Cocina c1)
         {
-            bool rta = false;
-            if (this + c1)
-            {
-                rta = true;
-            }
-            return rta;
+           
+            return this + c1;
         }
 
         /// <summary>
@@ -63,12 +59,7 @@ namespace Entidades
         /// <returns></returns>
         public bool Remover(Cocina c1)
         {
-            bool rta = false;
-            if (this - c1)
-            {
-                rta = true;
-            }
-            return rta;
+            return this - c1;
         }
         /// <summary>
         ///  permite retornar la informacion del deposito de autos. (capacidad y detalle de los autos.)
@@ -77,9 +68,10 @@ namespace Entidades
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
+
             sb.AppendFormat("Capacidad Maxima: {0}", _capacidadMaxima);
-            //sb.AppendLine();
-            sb.AppendLine("                     LISTA DE COCINAS ");
+            sb.AppendLine();
+            sb.AppendLine("LISTA DE COCINAS ");
             foreach (Cocina item in this._lista)
             {
 

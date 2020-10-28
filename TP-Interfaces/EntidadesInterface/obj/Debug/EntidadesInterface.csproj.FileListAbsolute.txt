@@ -1,0 +1,6 @@
+C:\Users\H420\Desktop\EntidadesInterface\EntidadesInterface\bin\Debug\EntidadesInterface.dll
+C:\Users\H420\Desktop\EntidadesInterface\EntidadesInterface\bin\Debug\EntidadesInterface.pdb
+C:\Users\H420\Desktop\EntidadesInterface\EntidadesInterface\obj\Debug\EntidadesInterface.csprojAssemblyReference.cache
+C:\Users\H420\Desktop\EntidadesInterface\EntidadesInterface\obj\Debug\EntidadesInterface.csproj.CoreCompileInputs.cache
+C:\Users\H420\Desktop\EntidadesInterface\EntidadesInterface\obj\Debug\EntidadesInterface.dll
+C:\Users\H420\Desktop\EntidadesInterface\EntidadesInterface\obj\Debug\EntidadesInterface.pdb
