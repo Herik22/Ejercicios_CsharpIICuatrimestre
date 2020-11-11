@@ -1,7 +1,0 @@
-C:\Users\MAIST\OneDrive\Desktop\Nueva carpeta\SP.LabII.2020\Entidades_Parcial\bin\Debug\Entidades_Parcial.dll
-C:\Users\MAIST\OneDrive\Desktop\Nueva carpeta\SP.LabII.2020\Entidades_Parcial\bin\Debug\Entidades_Parcial.pdb
-C:\Users\MAIST\OneDrive\Desktop\Nueva carpeta\SP.LabII.2020\Entidades_Parcial\obj\Debug\Entidades_Parcial.csprojAssemblyReference.cache
-C:\Users\MAIST\OneDrive\Desktop\Nueva carpeta\SP.LabII.2020\Entidades_Parcial\obj\Debug\Entidades_Parcial.csproj.CoreCompileInputs.cache
-C:\Users\MAIST\OneDrive\Desktop\Nueva carpeta\SP.LabII.2020\Entidades_Parcial\obj\Debug\Entidades_Parcial.dll
-C:\Users\MAIST\OneDrive\Desktop\Nueva carpeta\SP.LabII.2020\Entidades_Parcial\obj\Debug\Entidades_Parcial.pdb
-C:\Users\MAIST\OneDrive\Desktop\Nueva carpeta\SP.LabII.2020\Entidades_Parcial\bin\Debug\Entidades_Parcial.dll.config

@@ -1,0 +1,6 @@
+C:\Users\MAIST\OneDrive\Desktop\Arismendy.Herik.2A\SP.LabII.2020\Entidades_Parcial2\bin\Debug\Entidades_Parcial2.dll
+C:\Users\MAIST\OneDrive\Desktop\Arismendy.Herik.2A\SP.LabII.2020\Entidades_Parcial2\bin\Debug\Entidades_Parcial2.pdb
+C:\Users\MAIST\OneDrive\Desktop\Arismendy.Herik.2A\SP.LabII.2020\Entidades_Parcial2\obj\Debug\Entidades_Parcial2.csprojAssemblyReference.cache
+C:\Users\MAIST\OneDrive\Desktop\Arismendy.Herik.2A\SP.LabII.2020\Entidades_Parcial2\obj\Debug\Entidades_Parcial2.csproj.CoreCompileInputs.cache
+C:\Users\MAIST\OneDrive\Desktop\Arismendy.Herik.2A\SP.LabII.2020\Entidades_Parcial2\obj\Debug\Entidades_Parcial2.dll
+C:\Users\MAIST\OneDrive\Desktop\Arismendy.Herik.2A\SP.LabII.2020\Entidades_Parcial2\obj\Debug\Entidades_Parcial2.pdb
